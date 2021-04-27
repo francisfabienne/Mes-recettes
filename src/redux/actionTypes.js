@@ -1,0 +1,2 @@
+export const STORE_RECIPES = "STORE_RECIPES";
+export const SINGLE_RECIPE = "SINGLE_RECIPE";
