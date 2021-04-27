@@ -26,7 +26,7 @@ export const recipes = async (actionDispatch ,query) => {
 
 export const singleRecipeDetail = async(actionDispatch, id) => {
     try {
-        console.log('try')
+        
        const result = await axios.get('https://api.spoonacular.com/recipes/' + id +'/information', {
            params: {
                apiKey
