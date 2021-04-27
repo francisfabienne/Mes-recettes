@@ -13,8 +13,8 @@ export const recipes = async (actionDispatch ,query) => {
                 number: TOTAL_RECIPE
             }
         });
-        // put data on the store by dispatch
-        // const actionDispatch = useDispatch()
+        
+     
         actionDispatch(searchRecipes(result.data.results))
 
     } catch (error) {
